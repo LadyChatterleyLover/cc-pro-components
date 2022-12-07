@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+svg {
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+html,
+body,
+#app,
+.el-container {
+  height: 100%;
+  box-sizing: border-box;
+}

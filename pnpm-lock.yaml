@@ -5,6 +5,7 @@ specifiers:
   '@commitlint/config-conventional': ^17.3.0
   '@element-plus/eslint-config': ^0.0.20221124
   '@element-plus/icons-vue': ^2.0.10
+  '@types/lodash': ^4.14.191
   '@types/node': ^16.11.56
   '@vitejs/plugin-vue': ^3.0.3
   '@vue/tsconfig': ^0.1.3
@@ -14,6 +15,7 @@ specifiers:
   eslint: ^8.28.0
   husky: ^8.0.2
   lint-staged: ^13.0.3
+  lodash: ^4.17.21
   npm-run-all: ^4.1.5
   pinia: ^2.0.21
   postcss: ^8.4.19
@@ -32,12 +34,14 @@ dependencies:
   '@element-plus/icons-vue': 2.0.10_vue@3.2.45
   cz-customizable: 7.0.0
   element-plus: 2.2.22_vue@3.2.45
+  lodash: 4.17.21
   pinia: 2.0.26_e7lp6ggkpgyi5vqd44m2kxvk6i
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
   '@element-plus/eslint-config': 0.0.20221124_eslint@8.28.0
+  '@types/lodash': 4.14.191
   '@types/node': 16.18.3
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
   '@vue/tsconfig': 0.1.3_@types+node@16.18.3
@@ -587,15 +591,14 @@ packages:
         integrity: sha512-R+zTeVUKDdfoRxpAryaQNRKk3105Rrgx2CFRClIgRGaqDTdjsm8h6IYA8ir584W3ePzkZfst5xIgDwYrlh9HLg==,
       }
     dependencies:
-      '@types/lodash': 4.14.190
+      '@types/lodash': 4.14.191
     dev: false
 
-  /@types/lodash/4.14.190:
+  /@types/lodash/4.14.191:
     resolution:
       {
-        integrity: sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==,
+        integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==,
       }
-    dev: false
 
   /@types/mdast/3.0.10:
     resolution:
@@ -2052,7 +2055,7 @@ packages:
       '@element-plus/icons-vue': 2.0.10_vue@3.2.45
       '@floating-ui/dom': 1.0.7
       '@popperjs/core': /@sxzz/popperjs-es/2.11.7
-      '@types/lodash': 4.14.190
+      '@types/lodash': 4.14.191
       '@types/lodash-es': 4.17.6
       '@vueuse/core': 9.6.0_vue@3.2.45
       async-validator: 4.2.5
